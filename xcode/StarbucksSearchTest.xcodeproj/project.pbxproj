@@ -19,6 +19,8 @@
 		9D8D0EBA162CCC450058EFF7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8D0EB8162CCC450058EFF7 /* CoreAudio.framework */; };
 		9D8D0EBE162CCC710058EFF7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8D0EBC162CCC710058EFF7 /* AudioToolbox.framework */; };
 		9D8D0EBF162CCC710058EFF7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8D0EBD162CCC710058EFF7 /* AudioUnit.framework */; };
+		9D8D0EC3162CD20B0058EFF7 /* Starbucks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D0EC2162CD20B0058EFF7 /* Starbucks.cpp */; };
+		9D8D0EC5162CD21B0058EFF7 /* Entry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D0EC4162CD21B0058EFF7 /* Entry.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,10 @@
 		9D8D0EB8162CCC450058EFF7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
 		9D8D0EBC162CCC710058EFF7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
 		9D8D0EBD162CCC710058EFF7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		9D8D0EC0162CD1BC0058EFF7 /* Entry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		9D8D0EC1162CD1FF0058EFF7 /* Starbucks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Starbucks.h; sourceTree = "<group>"; };
+		9D8D0EC2162CD20B0058EFF7 /* Starbucks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Starbucks.cpp; sourceTree = "<group>"; };
+		9D8D0EC4162CD21B0058EFF7 /* Entry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entry.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				00BAE6590E7ED9C10018A608 /* StarbucksSearchTestApp.cpp */,
+				9D8D0EC2162CD20B0058EFF7 /* Starbucks.cpp */,
+				9D8D0EC4162CD21B0058EFF7 /* Entry.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -122,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				32CA4F630368D1EE00C91783 /* StarbucksSearchTest_Prefix.pch */,
+				9D8D0EC0162CD1BC0058EFF7 /* Entry.h */,
+				9D8D0EC1162CD1FF0058EFF7 /* Starbucks.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -203,6 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00BAE65A0E7ED9C10018A608 /* StarbucksSearchTestApp.cpp in Sources */,
+				9D8D0EC3162CD20B0058EFF7 /* Starbucks.cpp in Sources */,
+				9D8D0EC5162CD21B0058EFF7 /* Entry.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
