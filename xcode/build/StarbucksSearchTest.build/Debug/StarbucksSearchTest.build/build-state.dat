@@ -6,8 +6,8 @@ cProcessInfoPlistFile "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearch
 cCpResource CinderApp.icns ./build/Debug/StarbucksSearchTest.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/StarbucksSearchTest_Prefix-crolacpbczszzoeektxbttqrivnr/StarbucksSearchTest_Prefix.pch.pth StarbucksSearchTest_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTestApp.o "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/MacOS/StarbucksSearchTest" normal i386
-cTouch "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app"
+cCompileC ./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Starbucks.o "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Starbucks.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Entry.o "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Entry.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 c000000004F90F72900000000000000CC
@@ -70,12 +70,12 @@ t1335690911
 s3323872
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp
-c00000000507C9382000000000000024B
-t1350341506
-s587
+c00000000507CA81100000000000002CB
+t1350346769
+s715
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app
-t1350342016
+t1350346546
 s102
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/Info.plist
@@ -83,8 +83,8 @@ t1350342016
 s1255
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/MacOS/StarbucksSearchTest
-t2
-s0
+t1350346546
+s8651980
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/PkgInfo
 t1350342016
@@ -94,19 +94,47 @@ N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Deb
 t1350342016
 s114357
 
+N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Entry.o
+t1350346537
+s1740
+
+N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Starbucks.o
+t1350346542
+s88564
+
 N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTest.LinkFileList
-c00000000507C958000000000000000B3
-t1350342016
-s179
+c00000000507CA72800000000000001FB
+t1350346536
+s507
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTestApp.o
-t1350342258
-s316888
+t2
+s0
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/CinderApp.icns
 c00000000507C9382000000000001BEB5
 t1350341506
 s114357
+
+N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Entry.cpp
+c00000000507C9A9A000000000000006D
+t1350343322
+s109
+
+N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Entry.h
+c00000000507C9ADD000000000000017D
+t1350343389
+s381
+
+N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Starbucks.cpp
+c00000000507CA727000000000000024C
+t1350346535
+s588
+
+N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Starbucks.h
+c00000000507C9E250000000000000462
+t1350344229
+s1122
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/StarbucksSearchTest_Prefix.pch
 c00000000507C93820000000000000093
@@ -2584,14 +2612,53 @@ s857
 CBuild AST from "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp"
 r0
 
+CBuild AST from "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Entry.cpp"
+r0
+
+CBuild AST from "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Starbucks.cpp"
+r0
+
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4ab622f9d02cb641^4b2045f9d02cb641^---0#1#0#--18"Check dependencies36"10EEC9B9-735B-445F-A4D0-198B099BF1BC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5e690991df2cb641^0ebc0e91df2cb641^---0#1#0#--18"Check dependencies36"F78324AE-C177-44FC-8789-4A59B909BDE9-
+
+CCompileC ./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Entry.o "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Entry.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372039336.147456
+e372039337.624705
+r1
+xCompileC
+x./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Entry.o
+x/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Entry.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Entry.cppb6f325a8de2cb641^f2eb9fa9de2cb641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/StarbucksSearchTest/xcode/Entry.cpp0000000000000000^3244"CompileC ./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Entry.o Entry.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-project-headers.hmap" -iquote/cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/build/Debug/include" -I/cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/StarbucksSearchTest_Prefix-crolacpbczszzoeektxbttqrivnr/StarbucksSearchTest_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Entry.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Entry.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Entry.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Entry.o"36"7DA204EB-8644-4F3B-94F9-356A6F7B1A36-
+
+CCompileC ./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Starbucks.o "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Starbucks.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372039336.147420
+e372039342.793089
+r1
+xCompileC
+x./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Starbucks.o
+x/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Starbucks.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Starbucks.cpp:23:12: warning: unused variable 'x' [-Wunused-variable]
+o    double x, y;
+o           ^
+o/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Starbucks.cpp:23:15: warning: unused variable 'y' [-Wunused-variable]
+o    double x, y;
+o              ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Starbucks.cppa5f325a8de2cb641^6405cbaede2cb641^-361"/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Starbucks.cpp:23:12: warning: unused variable 'x' [-Wunused-variable]    double x, y;           ^/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Starbucks.cpp:23:15: warning: unused variable 'y' [-Wunused-variable]    double x, y;              ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@19"Unused variable 'x'-372039342#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@99"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/StarbucksSearchTest/xcode/Starbucks.cpp0000000000000000^22#11#22#11#382#0#19"Unused Entity Issue--2@19"Unused variable 'y'-372039342#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@99"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/StarbucksSearchTest/xcode/Starbucks.cpp0000000000000000^22#14#22#14#385#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@99"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/StarbucksSearchTest/xcode/Starbucks.cpp0000000000000000^3268"CompileC ./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Starbucks.o Starbucks.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-project-headers.hmap" -iquote/cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/build/Debug/include" -I/cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/StarbucksSearchTest_Prefix-crolacpbczszzoeektxbttqrivnr/StarbucksSearchTest_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Starbucks.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Starbucks.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/Starbucks.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/Starbucks.o"36"DCD75098-0311-4480-BECE-A5D832BC8A4C-
 
 CCompileC ./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTestApp.o "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s372035021.604060
-e372035058.251191
-r1
+s372039569.096335
+e372039573.022629
+r0
 xCompileC
 x./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTestApp.o
 x/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp
@@ -2599,7 +2666,14 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp5ad99acdcd2cb641^fd4940f2cd2cb641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp0000000000000000^3360"CompileC ./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTestApp.o ../src/StarbucksSearchTestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-project-headers.hmap" -iquote/cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/build/Debug/include" -I/cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/StarbucksSearchTest_Prefix-crolacpbczszzoeektxbttqrivnr/StarbucksSearchTest_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTestApp.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTestApp.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTestApp.o"36"33CBA532-C789-447F-BDE5-D04C83C57D80-
+o/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp:18:11: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+o    int n = 100;
+o          ^
+o/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp:25:16: error: call to non-static member function without an object argument
+o    Starbucks::build(arr, 100);
+o    ~~~~~~~~~~~^~~~~
+o1 warning and 1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cppc0781a91df2cb641^69c70595df2cb641^-503"/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp:18:11: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]    int n = 100;          ^/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp:25:16: error: call to non-static member function without an object argument    Starbucks::build(arr, 100);    ~~~~~~~~~~~^~~~~1 warning and 1 error generated.2(36%IDEClangDiagnosticActivityLogMessage2@70"In-class initialization of non-static data member is a C++11 extension-372039573#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@110"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/StarbucksSearchTest/src/StarbucksSearchTestApp.cpp0000000000000000^17#10#17#10#348#0#11"Parse Issue--2@61"Call to non-static member function without an object argument-372039573#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/StarbucksSearchTest/src/StarbucksSearchTestApp.cpp0000000000000000^24#15#24#15#423#0#14"Semantic Issue1(3@110"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/StarbucksSearchTest/src/StarbucksSearchTestApp.cpp0000000000000000^24#4#24#20#412#11#-0#0#0#-19%DVTDocumentLocation4@119"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp0000000000000000^3360"CompileC ./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTestApp.o ../src/StarbucksSearchTestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/StarbucksSearchTest-project-headers.hmap" -iquote/cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/build/Debug/include" -I/cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/StarbucksSearchTest_Prefix-crolacpbczszzoeektxbttqrivnr/StarbucksSearchTest_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTestApp.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTestApp.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/../src/StarbucksSearchTestApp.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTestApp.o"36"F0E5CE4D-CAB6-4EA2-A73D-C69BFEBB410E-
 
 CCpResource CinderApp.icns ./build/Debug/StarbucksSearchTest.app/Contents/Resources/CinderApp.icns
 s372034816.248270
@@ -2611,14 +2685,14 @@ x./build/Debug/StarbucksSearchTest.app/Contents/Resources/CinderApp.icns
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy ./build/Debug/StarbucksSearchTest.app/Contents/Resources/CinderApp.icnse5b43f00cd2cb641^13f1a600cd2cb641^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/Resources/CinderApp.icns000000000080d041^499"CpResource CinderApp.icns ./build/Debug/StarbucksSearchTest.app/Contents/Resources/CinderApp.icns    cd "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/CinderApp.icns" "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/Resources"36"1961DB91-4B9A-4373-834B-34EA5CC77A4C-
 
 CLd "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/MacOS/StarbucksSearchTest" normal i386
-s372035833.772667
-e372035837.707230
+s372039342.800775
+e372039346.515052
 r1
 xLd
 x/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/MacOS/StarbucksSearchTest
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Link /Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/MacOS/StarbucksSearchTest9aeac5f9d02cb641^520fb5fdd02cb641^---0#0#0#--1207"Ld ./build/Debug/StarbucksSearchTest.app/Contents/MacOS/StarbucksSearchTest normal i386    cd "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk "-L/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/build/Debug" "-F/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/build/Debug" -filelist "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTest.LinkFileList" -mmacosx-version-min=10.7 /cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework AudioToolbox -framework AudioUnit -framework Accelerate -framework CoreAudio -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -o "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/MacOS/StarbucksSearchTest"36"3A86A4D7-F0B1-492A-93FC-C1F91B49B8C3-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Link /Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/MacOS/StarbucksSearchTest0728cdaede2cb641^2bdf83b2de2cb641^---0#0#0#--1207"Ld ./build/Debug/StarbucksSearchTest.app/Contents/MacOS/StarbucksSearchTest normal i386    cd "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk "-L/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/build/Debug" "-F/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/build/Debug" -filelist "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/StarbucksSearchTest.build/Debug/StarbucksSearchTest.build/Objects-normal/i386/StarbucksSearchTest.LinkFileList" -mmacosx-version-min=10.7 /cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework AudioToolbox -framework AudioUnit -framework Accelerate -framework CoreAudio -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -o "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/MacOS/StarbucksSearchTest"36"21040AFD-632A-4663-8E56-BC96F7B8AA23-
 
 CProcessInfoPlistFile "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app/Contents/Info.plist" Info.plist
 s372034816.197189
@@ -2668,10 +2742,10 @@ CProcessPCH++ /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.5
 r0
 
 CTouch "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app"
-s372035837.715597
-e372035837.766660
+s372039346.523270
+e372039346.767831
 r1
 xTouch
 x/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Touch /Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.appd847b7fdd02cb641^0744c4fdd02cb641^---0#0#0#--251"Touch ./build/Debug/StarbucksSearchTest.app    cd "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode"    /usr/bin/touch -c "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app"36"2B97B8E7-6FEF-4F94-B5CA-65971B4406E9-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Touch /Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.appc80686b2de2cb641^c590c4b2de2cb641^---0#0#0#--251"Touch ./build/Debug/StarbucksSearchTest.app    cd "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode"    /usr/bin/touch -c "/Users/smartkid1965/Documents/DOC/CSE 274/StarbucksSearchTest/xcode/./build/Debug/StarbucksSearchTest.app"36"E7A9E308-A034-405B-BE43-8374C7090791-
 

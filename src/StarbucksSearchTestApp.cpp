@@ -1,5 +1,7 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
+#include "Starbucks.h"
+#include "Entry.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -11,10 +13,16 @@ class StarbucksSearchTestApp : public AppBasic {
 	void mouseDown( MouseEvent event );	
 	void update();
 	void draw();
+  private:
+    Entry* arr;
+    int n = 100;
+    
+    
 };
 
 void StarbucksSearchTestApp::setup()
 {
+    Starbucks::build(arr, 100);
 }
 
 void StarbucksSearchTestApp::mouseDown( MouseEvent event )

@@ -9,6 +9,9 @@
 #ifndef StarbucksSearchTest_Starbucks_h
 #define StarbucksSearchTest_Starbucks_h
 
+#import "Entry.h"
+#import "cinder/app/AppBasic.h"
+
 class Starbucks {
 public:
 	/*
